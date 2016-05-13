@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.filterImageRow {
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-style: solid !important;
+    border-color: #000000 !important;
+    height: 73px !important;
+    padding-top: 10px !important;
+}
+.filterImageRow > div > img {
+    height: 38px !important;
+}
+
+.rowPadding{
+    padding-top: 20px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+
+}
+
+
+.theroot {
+    height: 90%;
+}
+
+.scrollView {
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 12px !important;
+
+}
+
+.popup-container {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.filterOptions {
+    height: 50px ;
+    width: 100%;
+
+    padding-left: 10px;
+}
+
+.fiterLabel {
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #404040;
+    border-right-width: 1px;
+}
+
+.filterSelectProp {
+    height: 50px ;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #404040;
+}
+
+.filterDiv {
+    border-bottom-width: 0px !important;
+}
+
+.orangeBackGround {
+    background-color:#FF6600 !important;
+    color: #ffffff;
+}
+
+
+.orangeBackGround .fiterLabel {
+    border-bottom-width: 0px !important;
+    border-style: none;
+}
+
+.selectOptionText {
+    color: #FF6600 !important;
+}
+
+.barfooterSize {
+    height: 56px;
+}
+
+
+
+
+
+
+
+
+
+

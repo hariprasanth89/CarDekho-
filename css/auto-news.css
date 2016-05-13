@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.imageProp {
+    max-height: 56px !important;
+    max-width: 78px !important;
+}

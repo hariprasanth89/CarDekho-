@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nc_uc_header_prop{
+    
+    padding:0;
+}
+
+.nc_uc_header_info {
+    padding-top: 10px !important;
+    border-style: outset !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.nc_uc_header_info_title {
+
+}
+
+.nc_uc_header_info_year {
+
+}
+
+.nc_uc_alignCenter {
+    text-align: center !important;
+}
+
+
+ ion-header-bar div.row.nc_uc_header_info:first-child{
+ 	text-align:center;
+ 	background:#DF5426;
+ 	font-size: 15px !important;
+ 	font-weight: bold;
+ 	color: #fff;
+ 	padding: 5;
+ 	font-family:'Roboto-Bold' !important;
+ 	line-height:5.68px !important;
+ 	height:33px;
+ }
+  ion-header-bar div.row.nc_uc_header_info:nth-child(2) div.col{
+  	background: #f5f5f5;
+  	padding: 10px 30px;
+  	font-size: 14px !important;
+  	font-family:'Roboto-Medium' !important;
+  	color:#393939;
+  	height:37px;
+  }
+
+  ion-content div.scroll div.list{
+  	border-bottom: 2px solid #ccc;
+  }
+  ion-content div.scroll div.list:first-child{
+  	padding-top: -5px;
+  	padding-right: 0px;
+  	padding-left: 0px;
+  }
+  ion-content div.scroll div.list img.car-thumbnail{
+  	max-width: 100px;
+  	max-height: 80px;
+        vertical-align:middle; 
+  }
+  ion-content div.scroll div.list div.detail{
+  	margin-left: 5px;
+   }
+   ion-content div.scroll div.list div.item.item-thumbnail-left{
+   		min-height: 90px;
+   }
+     .row + .row {
+  margin-top: -5px;
+  padding-top: 0;
+  padding-bottom:0;
+   }
+  ion-content div.scroll div.list h2 {
+  	font-family:'Roboto-Bold' !important;
+  	font-size:70% !important;
+  	color: #0E0E0E;
+  }
+  ion-content div.scroll div.list h3{
+  	color: #9D9D9D;
+  	font-family:'Roboto-Regular' !important;
+  	font-size:11px !important;
+  }
+   ion-content div.scroll div.list h3 span{
+   	font-family:'Roboto-Bold' !important;
+  	font-size:13px !important;
+  	color: #F05A28;
+  	line-height:5.68px;
+   }
+
+   ion-footer-bar.bar.bar-assertive.bar-footer{
+	border:none;
+	background: #f5f5f5;
+	background-image: none!important;
+	text-transform: uppercase;
+	max-width: 95%;
+	margin: 0 auto;
+}
+ion-footer-bar.bar.bar-assertive.bar-footer div.row{
+	padding-bottom:10px;
+	border-bottom: 2px solid #ccc;
+	height: 50px;
+}
+ion-footer-bar .col-25{
+	border-top: 1px solid #DF5426;
+	border-style: inset;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+ion-footer-bar .col-25.active{
+	border-top: 5px solid #DF5426;
+	margin-top: -5px;
+	color: #DF5426x;
+}
+.upcoming-alarm{
+  width:30px;
+  height:25px;
+}
+.nc_uc_header2_info {
+    border-bottom-width: 2px;
+    border-style: outset !important;
+    border-bottom-color: #F05A28 !important;
+    border-top-width: 2px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    height: 30px;
+    background-color: #dfdfdf;
+    color: #0E0E0E;
+}
+
+.nc_uc_header3_info {
+    height: 20px;
+    background-color: #dfdfdf;
+    color: #0E0E0E !important;
+}

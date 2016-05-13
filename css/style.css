@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+.bar.bar-positive {
+    background-color: #000000;
+}
+
+element.style {
+    border-bottom-width: 0;
+    border-top-width: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+.item {
+	border-width: 0;
+}
+
+
+
+/*
+ * http://docs.angularjs.org/api/ng/directive/ngShow#usage_animations
+ */
+.list .item.item-accordion {
+  line-height: 38px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.09s all linear;
+}
+.list .item.item-accordion.ng-hide {
+  line-height: 0px;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}
+
+
+.outAnchor{
+	color: #ffffff !important;
+}
+
+.inAnchor{
+	color: #C3C3C3 !important;
+	padding-top: 8px !important;
+	padding-bottom: 8px !important;;
+}
+
+.innerMenu{
+	background-color:  #474747 !important;
+	font-family: 'Roboto-Regular';
+}
+.outMenu{
+	background-color:  #2B2B2B !important;
+	font-family: 'Roboto-Bold';
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+span.usedCarHomeTitle {
+	font-size: 120% !important;
+}
+
+.button.button-icon.input-button {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #bbb;
+}
+
+.my-item.item {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.home_wrapper {
+    margin:0 auto;
+    background: no-repeat url('../images/Home_Screen_Updated_15_jul_2014.png') fixed center;
+    background-size:100% 100%; 
+    height: 100%;
+    width: 100%;
+}
+
+.home_wrapper object{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*top: 15%;
+    left: 10%;*/
+	padding: 30% 10%;
+}
+.home_wrapper1 object{
+   /*width: 300px;
+   height: 300px;
+   margin-top:8%;
+   margin-left:-1.5%;*/
+    width: 100%;
+    height: 100%;
+    padding: 30% 10%;
+   
+}
+.full-width {
+  width: 100%;
+}
+
+.item-complex .item-content, .item-radio .item-content {
+    position: relative;
+    z-index: 2;
+    padding: 16px 49px 16px 16px;
+    border-bottom: solid;
+    background-color: #FFF;
+}
+
+.iconRight {
+    font-size: 18px !important;
+}
+
+
+
+.item-icon-left {
+    padding-left: 42px;
+}
+.footerText{
+	
+}
+.dialer{
+  width: 200px;
+  height: 200px;
+}
+.footerBarRow{
+    height: 50px;
+    padding: 0px;
+    border-top-width: 1px;
+    border-color: #e42012;
+    background-color: #f5f5f5;
+}
+
+.footerBarProp{
+  border-color: #e42012;
+    border: none;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    
+}
+
+.activeBar{
+
+    border-top: 5px solid #e42012 !important;
+    margin-top: -5px;
+    border-style: inset;
+    color: #DF5426;
+    font-weight: bold;
+    text-align: center;
+}
+.item.item-thumbnail-left .detail{
+  margin-left:50px;
+}
+@keyframes multiple-image{
+    0%{ background-image:url('../images/1.png');}
+    8%{background-image:url('../images/2.png');}
+    16%{background-image:url('../images/3.png');}
+    24%{background-image:url('../images/4.png');}
+    32%{background-image:url('../images/5.png');}
+    40%{background-image:url('../images/6.png');}
+    48%{background-image:url('../images/7.png');}
+    56%{background-image:url('../images/8.png');}
+    64%{background-image:url('../images/9.png');}
+    72%{background-image:url('../images/10.png');}
+    80%{background-image:url('../images/11.png');}
+    88%{background-image:url('../images/12.png');}
+
+}
+.loading{
+    -webkit-animation: multiple-image 1s infinite; /* Chrome, Safari, Opera */
+    animation: multiple-image 1s infinite;
+    padding-left: 75px !important;
+    padding-right : 75px !important;
+    background-color: transparent !important;
+}
+/* Rating */
+
+fieldset, label { margin: 0 !important; padding: 0 !important;}
+
+.rating { 
+  border: none;
+  float: left;
+}
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.rating > input:checked ~ label { color: #DF5426;  }
+

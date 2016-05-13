@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+ng-nc-search-car-header ion-header-bar div{
+	font: 13px "Roboto Bold" !important;
+	background-color: #f5f5f5;
+	padding-bottom:10px!important;
+}
+
+.row1{
+	margin-top:15px;
+	font-family:'Roboto-Regular';
+	font-size: 17px;
+	text-align: center;
+	color: #484848;
+}
+.row2{
+	font-family:'Roboto-Regular';
+	font-size: 13px;
+	text-align: center;
+	color: #C9C9C9;
+}
+
+.row3{
+	font-family:'Roboto-Regular';
+	font-size: 17px;
+	text-align: center;
+	color: #1A1A1A;
+}
+.row4{
+	font-family:'Roboto-Black';
+	font-size: 18px;
+	text-align: center;
+	color: #F05A27;
+}
+.row5{
+	font-family:'Roboto-Bold' !important;
+	font-size: 15px !important;
+	text-align: center !important;
+	background-color: #F05A27 !important;
+}
+
+.row6{
+	font-family:'Roboto-Bold' !important;
+	font-size: 15px !important;
+	text-align: center !important;
+	color: #ffffff !important;
+}
+.row7{
+	font-family:'Roboto-Bold' !important;
+	font-size: 15px !important;
+	text-align: center !important;
+	background-color: #ebe7e7 !important;
+}
+.row8{
+	font-family:'Roboto-Bold' !important;
+	font-size: 15px !important;
+	text-align: center !important;
+	color: #1A1A1A !important;
+}
+
+ng-nc-search-car-header ion-header-bar div div.nc_sc_alignCenter {
+    display: inline-block !important;
+    margin: 0;
+    margin-left: -10px;
+    padding: 5px 5px;
+    border: 2px solid #DF5426 !important;
+    border-radius: 3px !important;
+    border-style: outset !important;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    color: #484848;
+    background-color: #fff;
+    font-family: 'Roboto-Bold' !important;
+    font-size: 13px !important;
+}
+
+.sc_alignCenter {
+    display: inline-block !important;
+    margin: 0;
+    margin-left: -10px;
+    padding: 5px 5px;
+    border: 2px solid #DF5426 !important;
+    border-radius: 3px !important;
+    border-style: outset !important;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    color: #484848;
+    background-color: #fff;
+    font-family: 'Roboto-Bold' !important;
+    font-size: 13px !important;
+}
+
+ng-nc-search-car-header ion-header-bar div div.active{
+	margin-left:0;
+	border: none;
+	background-color: #F88017;
+	color: #fff;
+	font-family:'Roboto-Bold' !important;
+	font-size:13px !important;
+
+}
+.nc_sc_alignRight {
+    text-align: right !important;
+}
+.nc_sc_alignCenter {
+    text-align: center !important;
+    color: grey;
+}
+
+.nc_sc_logoSige {
+    width: 45px !important;
+    height: 35px !important;
+}
+
+.nc_sc_rowRightPadding {
+      padding: 4px;
+      margin-bottom: 2px !important;
+}
+.nc_sc_colom_border div.wrapper{
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: #c8c7cc !important;
+    height: 57px !important;
+    padding: 0;
+    width:100%  !important;
+    border-radius: 3px;
+    margin: 0 4px 0px 0 !important;
+   
+}
+.has-subheader {
+  top: 100px !important;
+} 
+.col-35{
+margin: auto !important;
+width: 33.3333%	;
+padding: 1px;
+}
+ng-price-range div.list, div.ng-binding {
+	margin-left: 0%;
+	font-family:'Roboto-Regular';
+	font-size:12px;
+	color:#7B7B7B;
+}
+ng-price-range div.item{ margin-left: 10px; padding:0;}
+ng-price-range div.item div.item-content{ margin: 0; padding:0;height: 50px;}
+ng-price-range div.item div.item-content div.row{
+	border-bottom: 3px solid #f5f5f5;
+	margin:0;
+	padding:0;
+}
+div.bar.bar-light{
+	margin-top: 80px;
+	padding: 10px;
+	border: none;
+	background:none;
+}
+div.bar.bar-light h1.title{
+	background:#DF5426;
+	display:inline-block;
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 5px;
+	font-weight: bold;
+	font-family:'Roboto-Bold';
+	font-size:15px;
+	color:#FFFFFF;
+	font-weight:700;
+}
+ion-footer-bar.bar.bar-assertive.bar-footer{
+	border:none;
+	background: #f5f5f5;
+	background-image: none !important;
+	text-transform: uppercase;
+	max-width: 95%;
+	margin: 0 auto;
+	bottom: 20px;
+}
+ion-footer-bar.bar.bar-assertive.bar-footer div.row{
+	padding-bottom:10px;
+	border-bottom: 2px solid #ccc;
+	height: 50px;
+}
+ion-footer-bar .col-25{
+	border-top: 1px solid #DF5426;
+	border-style: inset;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+ion-footer-bar .col-25.active{
+	border-top: 5px solid #DF5426;
+	margin-top: -5px;
+	color: #DF5426;
+}
+.activate{
+	margin-left:0;
+	border: none;
+	background-color: #F88017;
+	color: #fff;
+	font-family:'Roboto-Bold' !important;
+	font-size:13px !important;
+}	
+.ccol-35 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 103px;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 103px;
+    -ms-flex: 0 0 103px;
+    width: 103px;
+    height: 64px;
+    margin-right: 5px;
+}
+
+.rrow-33{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+}
+element.style {
+    height: 250%;
+    width: 50%;
+} 

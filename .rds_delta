@@ -1,0 +1,11 @@
+#delete
+res/wgt/CarDekho.wgt
+res/wgt/CarDekho.wgt.zip
+res/wgt/RemoteSystemsTempFiles
+#add
+#modify
+res/wgt/.DS_Store
+res/wgt/.git/sourcetreeconfig
+res/wgt/.idea/workspace.xml
+res/wgt/author-signature.xml
+res/wgt/signature1.xml
